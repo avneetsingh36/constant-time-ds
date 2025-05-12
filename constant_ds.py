@@ -35,19 +35,3 @@ class ConstantDS:
         print(self.values)
         print(self.idx_map)
             
-def main():
-    rs = ConstantDS()
-    
-    for x in (5, 3, 10, 20):
-        rs.insert(x)
-    
-    rs.show()
-
-    print(f'Random pick from list: {rs.get_random()}')
-    
-    rs.remove(5)
-    rs.show()
-
-if __name__ == "__main__":
-    main()
-
