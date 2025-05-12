@@ -17,6 +17,6 @@
 - `insert(val)` → None  
 - `remove(val)` → None  
 - `get_random()` → int  
-- `show()` → None  constant-time-ds
+- `show()` → None
 
 Data structure that can perform insert, remove, and get_random in constant time.
