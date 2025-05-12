@@ -1,6 +1,6 @@
 import random
 
-class RandomizedSet:
+class ConstantDS:
     """O(1) insert, remove, and get-random data stucture."""
 
     def __init__(self) -> None:
@@ -36,7 +36,7 @@ class RandomizedSet:
         print(self.idx_map)
             
 def main():
-    rs = RandomizedSet()
+    rs = ConstantDS()
     
     for x in (5, 3, 10, 20):
         rs.insert(x)
