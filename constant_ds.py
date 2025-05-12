@@ -1,7 +1,7 @@
 import random
 
 class ConstantDS:
-    """O(1) insert, remove, and get-random data stucture."""
+    """O(1) insert, remove, and get-random data structure."""
 
     def __init__(self) -> None:
         self.values: List[int] = []
